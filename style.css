@@ -1,0 +1,1691 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    font-family:'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 28, 28);
+    color: white;
+}
+.all{
+    background-image: url(https://www.w3schools.com/images/background_in_space.webp);
+}
+.first {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Align items vertically centered */
+        /* Distribute space between items */
+    flex-wrap: wrap; /* Allow items to wrap if they don't fit */
+        /* Add some padding */
+    background-color: rgba(0, 0,0,0 ); /* Background color */
+}
+
+.first img {
+    height: 50px; /* Set height for the image */
+    margin-left: 8px;
+    margin-right: 20px; /* Space between the image and the next link */
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.first a {
+    background-color: rgba(0,0,0,0);
+        /* Space between links and buttons */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Linkcolor */
+    font-size: 16px;
+    padding-right: 50px;
+}
+.first a i{
+    background-color: rgba(0,0,0,0);
+    padding-left: 3px;
+    position: absolute;
+    top: 14px;
+}
+
+.first a i{
+    color: white;           
+}
+.first .one{
+    display: flex;
+    border-radius: 14px;
+    background-color: white;
+}
+.one{
+    border: none;
+}
+.one input{
+    border: none;
+    padding: 7px 0px 7px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.fa-circle-half-stroke{   
+    padding: 0px 40px 0px 25px;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+/*.first .ca2 a i{ this is for fonticons but error
+not showing in output recall after
+    padding-right: 20px;
+} */
+.one i{
+    background: white;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 14px;
+    cursor: pointer;
+    right: 780px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-onesone{
+    padding: 10px 25px 10px 20px;
+    border: none;
+    background-color: rgb(11, 169, 11);
+    font-size: 15px;
+    border-radius: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.btn-onestwo{
+    padding: 10px 20px 10px 50px;
+    position: relative;
+    right: 38px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius:20px ;
+    cursor: pointer;
+}
+.second{
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 15px 10px;
+    background-color: rgb(27, 44, 61);
+}
+.second::-webkit-scrollbar{
+    display: none;
+}
+.second a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0);
+    letter-spacing: 1;
+}
+
+.second a:last-child{
+    margin-right: 0px;
+}
+.second p i{
+    position: absolute;
+    top:65px;
+    right: 0;
+    color: white;
+    background-color: rgb(20, 39, 57);
+}
+.three {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  Full viewport height 
+    background-color: #2f3542; Optional: Background color for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:140px ;
+    background-color: rgba(0,0,0,0);
+}
+.three h1{
+    font-size:70px ;
+    font-weight: 700;
+    color: rgb(251, 249, 249);
+    background-color: rgba(0,0,0,0);
+}
+.three h3{
+    margin-top: 30px;
+    color: yellow;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0);
+}
+/* Container to wrap input and button */
+.search-container{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+}
+.search-container input{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    font-size: 16px;
+    overflow: none;
+    background-color: rgba(0,0,0,0);
+    background: white;
+}
+.search-container button{
+    background-color: green;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-container button i{
+    color: white;
+    font-size: 16px;
+    background: green;
+}
+.search-container input::placeholder{
+    color: #777;
+}
+.three a{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 180px;
+}
+.three a:hover{
+    color: yellow;
+}
+
+    .main-four{
+    background-color: #D9EEE1;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    }
+    .four{
+    display: flex;
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: flex-start;
+    background-color: #D9EEE1;
+    }
+    .subfour-one{
+    text-align: center;
+    background-color: #D9EEE1;
+    margin-top: 30px;
+    }
+
+    .subfour-one h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    background-color: #D9EEE1;
+    margin-bottom: 30px;
+    }
+    .subfour-one p{
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+    background-color: #D9EEE1;
+    }
+    .subfour-one a{
+    display: block;
+    padding: 10px 20px;
+    margin: 25px auto;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fff;
+}
+.subfour-one .onea {background-color: #00b894;}
+.subfour-one .twoa{ background-color: #ffeaa7; color: black;}
+.subfour-one .threea{background-color: #2d3436;}
+.subfour-one .foura {background-color: pink; color: black;}
+.subfour-two{
+    background-color: #404346;
+    padding: 20px;
+    border-radius:10px;
+    color: #dfe6e9;
+    width: 450px;
+}
+.subfour-two h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin:  0 0 10px;
+}
+.subfour-twoof-two{
+    background-color: #2f3542;
+    padding:15px;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #dfe6e9;
+    overflow-x: auto;
+    line-height: 1.6;
+}
+.subfour-twoof-two span{
+    display: block;
+    color: #74b9ff;
+}
+.subfour-twoof-two span:first-child{color: #e17055;}
+.subfour-twoof-two span span { color: #cf24ee; }
+.subfour-two button{
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.subfour-two button:hover{
+    background-color: #019874;
+}
+.main-five{
+    background: #FFF4A3;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.five{
+    display: flex;
+    gap: 80px;
+    max-width: 950px;
+    margin:0 auto;
+    align-items: flex-start;
+    background-color: #FFF4a3;
+}
+.main-five-one{
+    background-color: #FFF4A3;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-five-one h1{
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-five-one p{
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.main-five-one a{
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 26px;
+    font-weight: bold;
+}
+.main-five-one .onea{background: green;}
+.main-five-one .oneaa{background:white; color: black;}
+.main-five-one .oneaaa{background-color: pink; color:black ;}
+.main-five-two{
+    width: 400px;
+    padding:  30px 16px;
+    background-color: rgb(204, 189, 189);            
+    border-radius: 10px;
+}
+.main-five-two .cssexample{
+    padding: 10px;
+    background-color: rgb(204, 189, 189);
+}
+.main-five-two .cssexample button{
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px 35px;
+    background-color: rgb(52, 203, 52);
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.main-five-two .cssexample h2{
+    padding: 10px 0px;
+    color: black;
+    background-color: rgb(204, 189, 189);
+}
+.main-five-two .syntax{
+    background-color: white;
+    border-left: 4px solid green;
+    padding: 10px;
+    font-family: Arial, sans-serif ;
+    font-size: 16px;
+}
+.syntax .body{
+    background-color: white;
+}
+.syntax .body .onee{
+    color: brown;
+    background-color: white;
+    margin-right: 6px;
+}
+.syntax .body .twoo{
+    color: black;
+    background-color: white;
+}
+.syntax .body .threee{
+    margin-left: 19px;
+    background-color: white;
+    color: red;
+}
+.syntax .body .fourr{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.syntax .body .fivee{
+    background-color: white;
+    color: blue;
+    margin-right: 1px;
+}
+.syntax .body .sixx{
+    color: black;
+    background-color: white;
+}
+.syntax .body .sevenn{
+    background-color: white;
+    color: black;
+}
+.syntax .h1{
+    background-color: white;
+}
+.syntax .h1 .onee{
+    color: brown;
+    background-color: white;
+    margin-right: 6px;
+}
+.syntax .h1 .twoo{
+    color: black;
+    background-color: white;
+}
+.syntax .h1 .threee{
+    margin-left: 19px;
+    background-color: white;
+    color: red;
+}
+.syntax .h1 .fourr{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.syntax .h1 .fivee{
+    background-color: white;
+    color: blue;
+    margin-right: 1px;
+}
+.syntax .h1 .sixx{
+    color: black;
+    background-color: white;
+}
+.syntax .h1 .sevenn{
+    background-color: white;
+    color: black;
+}
+.syntax .p{
+    background-color: white;
+}
+.syntax .p .onee{
+    color: brown;
+    background-color: white;
+    margin-right: 6px;
+}
+.syntax .p .twoo{
+    color: black;
+    background-color: white;
+}
+.syntax .p .threee{
+    margin-left: 19px;
+    background-color: white;
+    color: red;
+}
+.syntax .p .fourr{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.syntax .p .fivee{
+    background-color: white;
+    color: blue;
+    margin-right: 1px;
+}
+.syntax .p .sixx{
+    color: black;
+    background-color: white;
+}
+.syntax .p .sevenn{
+    background-color: white;
+    color: black;
+}
+.main-six {
+display: flex;
+background: black;
+justify-content: center;
+padding: 50px 0;
+}
+
+.six {
+    display: flex;
+    gap: 80px;
+    max-width: 950px;
+    align-items: center;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.main-six-one {
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;    
+}
+
+.main-six-one h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.main-six-one p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.main-six-one a {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 26px;
+    font-weight: bold;
+}
+
+.onea { background-color: green; }
+.oneaa { background-color: white; color: black; }
+.oneaaa { background-color: pink; color: black; }
+
+.main-six-two {
+    width: 550px;
+    padding: 30px 16px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.cssexample {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.cssexample button {
+    margin-top: 20px;
+    padding: 10px 35px;
+    background-color: #34CB34;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cssexample h2 {
+    padding: 10px 0;
+    color: black;
+    background-color: #ccc;
+}
+.main-six-two .syntax {
+    background-color: white;
+    border-left: 4px solid green;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    height: 200px;
+}
+.syntax .tag {
+    color: blue;
+    background-color: white;
+}
+.syntax .attribute {
+    color: red;
+    background-color: white;
+}
+.syntax .value {
+    color: brown;
+    background-color: white;
+}
+.syntax .text {
+    color: black;
+    background-color: white;
+}
+.syntax .text1 {
+    margin-left: 20px;
+    color: black;
+    background-color: white;
+}
+.main-seven{
+    display: flex;
+    background-color: #F3ECEA;
+    justify-content: center;
+    padding: 50px 0;
+}
+.seven{
+    display: flex;
+    gap: 80px;
+    max-width: 950px;
+    align-items: center;
+    background-color: #F3ECEA;
+    margin: 0 auto;
+}
+.main-seven-one {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #F3ECEA;
+}
+.main-seven-one h1 {
+    color: black;
+    background-color: #F3ECEA;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-seven-one p {
+    color: black;
+    background-color: #F3ECEA;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.main-seven-one a {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 26px;
+    font-weight: bold;
+}
+.one1a { background-color: green; }
+.one2a { background-color: white; color: black; }
+.one3a { background-color: pink; color: black; }
+.main-seven-two{
+    width: 490px;
+    padding: 30px 16px;
+    background: #E7E9EB;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.main-seven-two .cssexample{
+    padding: 16px;
+    background: #E7E9EB;
+}
+.main-seven-two .cssexample h2{
+    /* already done in main-six h2 so we don't need to write again because
+    it has same name with div and h2 only changed background-color*/
+    background-color: #E7E9EB;
+}
+.main-seven-two .syntax{
+    background-color: white;
+    padding: 10px;
+    border-left: 4px solid green;
+    font-family: Arial, sans-serif;
+    height: 200px;
+}
+.main-seven-two .syntax .bluee{
+    color: blue;
+    background-color: white;
+}
+.main-seven-two .syntax .redd{
+    color: red;
+    background-color: white;
+}
+.main-seven-two .syntax .blackk{
+    color: black;
+    background-color: white;
+}
+.main-seven-two .syntax .secondblackk{
+    margin-left: 20px;
+    color: black;
+    background-color: white;
+}
+.main-seven-two .syntax .brownn{
+    color: brown;
+    background-color: white;
+}
+.main-eight{
+    display: flex;
+    background-color: #96D4D4;
+    justify-content: center;
+    padding: 50px 0;
+}
+.eight{
+    display: flex;
+    gap: 80px;
+    max-width: 950px;
+    align-items: center;
+    background-color: #96D4D4;
+    margin: 0 auto;
+}
+.main-eight-one {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #96D4D4;
+}
+.main-eight-one h1 {
+    color: black;
+    background-color: #96D4D4;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-eight-one p {
+    color: black;
+    background-color: #96D4D4;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.main-eight-one a {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 26px;
+    font-weight: bold;
+}
+.one1a { background-color: green; }
+.one2a { background-color: white; color: black; }
+.one3a { background-color: pink; color: black; }
+.main-eight-two{
+    width: 490px;
+    padding: 30px 16px;
+    background: #E7E9EB;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.main-eight-two .cssexample{
+    padding: 16px;
+    background: #E7E9EB;
+}
+.main-eight-two .cssexample h2{
+    /* already done in main-six h2 so we don't need to write again because
+    it has same name with div and h2 only changed background-color*/
+    background-color: #E7E9EB;
+}
+.main-eight-two .syntax{
+    background-color: white;
+    padding: 10px;
+    border-left: 4px solid green;
+    font-family: Arial, sans-serif;
+    height: 200px;
+}
+.main-eight-two .syntax .bluee{
+    color: blue;
+    background-color: white;
+    padding-right: 10px;
+}
+.main-eight-two .syntax .blackk{
+    color: black;
+    background-color: white;
+    padding-right: 10px;
+}
+.main-eight-two .syntax .secondblackk{
+    margin-left: 20px;
+    color: black;
+    background-color: white;
+}
+.main-eight-two .syntax .brownn{
+    color: brown;
+    background-color: white;
+}
+.main-eight-two .syntax .blackkstar{
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 50px;
+}
+.first-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    background-color: black;
+}
+.grid{
+    margin: 20px auto ;
+    text-align: center;
+    width: 650px;
+    background-color: pink;
+    border-radius: 15px;
+}
+.grid .first-php{
+    background-color: pink;
+    margin: 50px;
+}
+.grid .first-php h1{
+    background-color: pink;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-php p{
+    background-color: pink;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-php a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.jquery{
+    background-color: #FFF4A3;
+}
+.grid .first-jquery{
+    background-color: #FFF4A3;
+    margin: 50px;
+}
+.grid .first-jquery h1{
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-jquery p{
+    background-color: #FFF4A3;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-jquery a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.java{
+    background-color: #F3ECEA;
+}
+.grid .first-java{
+    background-color: #F3ECEA;
+    margin: 50px;
+}
+.grid .first-java h1{
+    background-color: #F3ECEA;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-java p{
+    background-color: #F3ECEA;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-java a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.cplus{
+    background-color: #D9EEE1;
+}
+.grid .first-cplus{
+    background-color: #D9EEE1;
+    margin: 50px;
+}
+.grid .first-cplus h1{
+    background-color: #D9EEE1;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-cplus p{
+    background-color: #D9EEE1;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-cplus a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.w3{
+    background-color: #96D4D4;
+}
+.grid .first-w3{
+    background-color: #96D4D4;
+    margin: 50px;
+}
+.grid .first-w3 h1{
+    background-color: #96D4D4;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-w3 p{
+    background-color: #96D4D4;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-w3 a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.bootstrap{
+    background-color: #E7E9EB;
+}
+.grid .first-bootstrap{
+    background-color: #E7E9EB;
+    margin: 50px;
+}
+.grid .first-bootstrap h1{
+    background-color: #E7E9EB;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.grid .first-bootstrap p{
+    background-color: #E7E9EB;
+    color: black;
+    margin-bottom: 50px;
+}
+.grid .first-bootstrap a{
+    padding: 15px 55px;
+    background: #282A35;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.c{
+    background-color: #FFC0C7;
+}
+.grid .first-c{
+    background-color: #FFC0C7; 
+    margin: 50px;
+}        
+.grid .first-c a{
+    padding: 15px 55px;
+    background:#FFC0C7 ;
+    border-radius: 30px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.csharp{
+    background-color: #FFF4A3;
+}
+.grid .first-csharp{
+    background-color: #FFF4A3;
+    margin: 50px;
+}
+.grid .first-csharp a{
+    padding: 15px 55px;
+    background:#FFF4A3;
+    border-radius: 30px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.second-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: black;
+}
+.card {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(209, 207, 207);
+}
+.grey{
+    color:black;
+    background-color: #E7E9EB;
+}
+.green{
+    background-color: #D9EEE1;
+    color: black;
+}
+.blue{
+    background-color:#96D4D4 ;
+}
+.pink{
+    background-color: #FFC0C7;
+}
+.yellow{
+    background-color: #FFF4A3;
+}
+.third-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    width: 90%;
+    padding: 20px ;
+    margin: 50px;
+}
+.last{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 90px;
+}
+.bluea{
+    background-color:#74b9ff;
+    color: black;
+    padding: 30px 0px;
+    
+}
+.yellowa{
+    background-color:#FFF4A3;
+    color: black;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-weight: 90px;
+    border-radius: 10px;
+}
+.pinka{
+    background-color:#FFC0C7;
+    color: black;
+    padding: 30px 0px;
+    font-size: 35px;
+    font-weight: 90px;
+    border-radius: 10px;
+}
+.greya{
+    background-color:#E7E9EB;
+    color: black;
+    padding: 30px 0px;
+    font-size: 35px;
+    font-weight: 90px;
+    border-radius: 10px;
+}
+.nine-code-editor{
+    width: 62%;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nine-code-editor h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 45px;
+    font-weight: 6000;
+}
+.nine-code-editor h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 15px auto 15px auto;
+}
+.container-all{
+    width: 97.9%;
+    padding: 10px;
+    background-color: rgb(221, 218, 218);
+    border-radius: 10px 10px 0px 0px;
+}
+.circles{
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+}
+.container-all input{
+    margin-left: 90px;
+    width: 400px;
+    padding: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(105, 102, 102);
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+.container-second{
+    background-color: rgb(221, 218, 218);
+}
+.container-second button{
+    padding: 10px 14px 10px 14px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.try-frontend{
+    margin-left: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(4, 173, 4);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.ten-w3{
+    margin: 40px 40px 0px 40px;
+    text-align: center;
+    background-color: #282A35;
+}
+.ten-w3 h1{
+    background-color: #282A35;
+    margin: 20px 0px 20px 0px;
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.ten-w3 h3{
+    background-color: #282A35;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight:bold ;
+}
+.ten-w3 h3 a{
+    margin-left: 2px;
+    background-color: #282A35;
+    color: #FFC0C7;
+}
+.ten-w3 h3 a:hover{
+    color: green;
+}
+.ten-w3 button{
+    border: none;
+    padding: 13px 50px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.eleven-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: #D9EEE1;
+    padding: 40px;
+}
+.eleven-one{
+    background-color:#D9EEE1;
+    line-height: 1.5;
+}
+.eleven-one a{
+    background-color: #D9EEE1;
+}
+.eleven-one img{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #D9EEE1;
+}
+.eleven-two{
+    background-color: #D9EEE1;
+    text-align: center;
+    line-height: 1.5;
+}
+.eleven-two h1{
+    font-weight: 710;
+    font-size: 50px;
+    background-color: #D9EEE1;
+    color: black;
+    margin-bottom: 20px;
+}
+.eleven-two h4{
+    background-color: #D9EEE1;
+    color: black;
+    font-weight: 750;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 360px;
+}
+.eleven-two p{
+    background-color: #D9EEE1;
+    margin-top: 20px;
+}
+.eleven-two a{
+    padding: 14px 60px;
+    background-color: green;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.twelve-main{
+    background-color: #282A35;
+    text-align: center;
+    padding: 50px ;
+}
+.twelve-main h1{
+    background-color: #282A35;
+    padding: 10px;
+    font-size: 52px;
+    line-height: 55px;
+    font-weight: 700;
+}
+.twelve-main h3{
+    background-color: #282A35;
+    padding: 19px;
+    color: #FFC0C7;
+    font-size: 25px;
+}
+.twelve-main button{
+    margin: 20px 0;
+    background-color: green;
+    border-radius: 40px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 80px;
+}
+.list-item{
+    background-color: #282A35;
+}
+.list-item ul{
+    background-color:#282A35;
+    display: inline-block;
+    text-align: start;
+    text-decoration: none
+}
+.list-item li{
+    list-style-type:none;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+    background-color: #282A35;
+}
+.list-item ul li img{
+    background-color: #282A35;
+}
+.thirteen-main{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 95px;
+    background-color: #F3ECEA;
+    color: black;
+    text-align: center;
+}
+.content{
+    background-color: #F3ECEA;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content h1{
+    background-color: #F3ECEA;
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.content h4{
+    background-color: #F3ECEA;
+    color: black;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.thirthteen-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #282A35;
+}
+.thirteen-one{
+    position: relative;
+    top: -40px;
+    background-color: #282A35;
+    text-align: center;
+}
+.thirteen-one h1{
+    padding: 20px;
+    background-color: #282A35;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.thirteen-one h4{
+    font-size: 20px;
+    background-color: #282A35;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+.thirteen-one .itemss{
+    background-color: #282A35;
+    padding-bottom: 50px;
+}
+.itemss ul{
+    text-align: left;
+    text-decoration: none;
+    background-color: #282A35;
+}
+.itemss ul li{
+    list-style-type: none;
+    background-color: #282A35;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.thirteen-one a{
+    text-decoration: none;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 40px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.thirteen-two{
+    margin: 50px;
+    background-color: #282A35;
+}
+.thirteen-two img{
+    background-color: #282A35;
+}
+.fourteen-main{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #96D4D4;
+}
+.fourteen-one{
+    text-align: center;
+    background-color: #96D4D4;
+}
+
+.fourteen-one h1{
+    background-color: #96D4D4;
+    color: black;
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Permanent Marker', sans-serif;
+}
+.fourteen-one p{
+    background-color: #96D4D4;
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Permanent Marker', sans-serif;
+    padding-bottom: 30px;
+}
+.fourteen-one a{
+    background-color: #96D4D4;
+}
+.fourteen-one a img{
+    background-color: #96D4D4;
+    padding-bottom: 28px;
+}
+.fourteen-one .aa img{
+    background-color: #96D4D4;
+    margin-bottom: 40px;
+}
+.fourteen-one p a{
+    background-color: #282A35;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #091919;
+    padding: 10px 60px;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fifteen-main {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fifteen-main h1 {
+    padding: 35px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.fifteen-main p {
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fifteen-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Button styling */
+.fifteen-one button {
+    width: 500px;
+    height: 150px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    background-color: #4CAF50; /* Green color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.fifteen-one button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.sixteen-main{
+    background-color: #E7E9EB;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+.sixteen-main h1{
+    background-color: #E7E9EB;
+    color: black;
+    font-size:65px ;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.sixteen-main strong{
+    background-color: #E7E9EB;
+    color: black;
+    font-size: 20px;
+}
+.sixteen-main h4{
+    background-color: #E7E9EB;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.sixteen-main button{
+    margin-top: 30px;
+    background-color: #282A35;
+    padding: 15px 290px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+.sixteen-main button:hover{
+    background-color: black;
+}
+.sixteen-one{
+    background-color: #E7E9EB;
+}
+.sixteen-one a{
+    background-color: #E7E9EB;
+}
+.sixteen-one img{
+    background-color: #E7E9EB;
+    padding-bottom: 20px;
+}
+.seventeen-main{
+    padding: 0px 50px 100px 90px;
+    background-color: #282A35;
+}
+.seventeen-one{
+    background-color: #282A35;
+}
+.seventeen-one h2{
+    background-color: #282A35;
+    padding: 1em 0;
+    font-size: 62px;
+    color: #FFC0C7;
+}.seventeen-one p{
+    background-color: #282A35;
+    padding: 5px;
+    font-size: 42px;
+    color: #FFC0C7;
+    margin-bottom: 50px;
+}
+.seventeen-one a{
+    padding: 15px 70px;
+    background-color: green;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 35px;
+}
+.seventeen-one a:hover{
+    background-color: #057109;
+}
+.how-to-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #1A1D2E;
+    color: white;
+}
+.how-to-section button{
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px 100px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.how-to-section h2 {
+    font-size: 48px;
+    background-color: #1A1D2E;
+    color: #FFF;
+}
+
+.how-to-section .example-p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #B0B0B0;
+    padding: 20px 0px 10px 0px;
+    background-color: #1A1D2E;
+}
+
+.example-text {
+    margin-top: 10px;
+    background-color: #1A1D2E;
+    color: #B0B0B0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Browser frame styling */
+.browser-frame {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Browser header with dots */
+.browser-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #E5E5E5;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red { background-color: #FF5F57; }
+.yellow { background-color: #FFBD2E; }
+.green { background-color: #27C93F; }
+
+.browser-url {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Slideshow section styling */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #DDD;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.last-main{
+    padding: 60px 80px 300px 80px;
+    max-width: 1400px;
+    color:#ddd;
+    background-color: rgba(0,0,0,0);
+}
+.last-one{
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    padding-left: 120px;
+}
+.footlinks_1 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF4A3;
+}
+.footlinks_1 a:hover{
+    text-decoration: underline;
+}
+.footlinks_1{
+    padding: 40px 30px;
+    float: left;
+}
+.footlinks_2{
+    margin-left: 0;
+    width: auto;
+    float: left;
+    padding-left: 40px;
+    color:#ddd;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footlinks_2 a{
+    display: block;
+    padding-right: 80px;
+    text-decoration: none;
+}
+.footlinks_2 a:hover{
+    color: #FFF4A3;
+}
+.footlinks_2 h5{
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footersome{
+    margin-top: 60px;
+    margin-left: 250px;
+}
+.footersome a{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.footersome a:hover{
+    text-decoration: underline;
+    color: #FFF4A3;
+}
+.footersome i:hover{
+    color: #FFF4A3;
+}
+.footer-text{
+    margin-top: 30px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+}
+.ahover:hover{
+    color: #FFF4A3;
+}
